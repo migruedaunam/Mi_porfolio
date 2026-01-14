@@ -1,2 +1,59 @@
 mi portafolio de proyectos
 password agregado
+
+Este video es un curso completo y gratuito sobre Git, el sistema de control de versiones más utilizado en el mundo, esencial para cualquier desarrollador (0:00).
+
+Aquí tienes un resumen de los puntos clave:
+
+¿Qué es Git? (1:11)
+
+Git es una herramienta distribuida de control de versiones que permite tener un historial completo de todo el código desarrollado en una aplicación.
+Facilita el "rollback" (volver a versiones anteriores del código) en caso de errores (2:07).
+Permite el trabajo colaborativo de manera descentralizada, donde cada desarrollador tiene una copia completa del código, lo que minimiza el impacto de fallos en un servidor central (3:07).
+Usos de Git (4:50)
+
+Ofrece un historial detallado de todos los cambios realizados por uno mismo o por otros desarrolladores (4:59).
+Permite almacenar código y trabajar en equipo de forma eficiente (5:11).
+Ayuda a identificar cuándo se introdujo un error en la aplicación, facilitando la depuración (5:30).
+Instalación y Configuración de Git (5:55-16:09)
+
+Se recomienda usar la terminal y se guía en la descarga de Git desde git-scm.com (6:20).
+Para usuarios de Windows, se aconseja utilizar Git Bash para emular comandos de Linux/Mac (7:03).
+Se explica cómo configurar Git con el nombre de usuario (git config --global user.name) y correo electrónico (git config --global user.email) (9:21).
+Se configura el editor de texto por defecto (por ejemplo, VS Code con code --wait) (10:52).
+Se aborda la configuración de core.autocrlf para manejar saltos de línea en diferentes sistemas operativos (Windows, Linux, Mac) (12:37).
+Comandos Básicos de BASH (16:09)
+
+ls: Listar archivos y carpetas (16:19).
+pwd: Saber en qué directorio se encuentra el usuario (16:54).
+cd [directorio]: Moverse a un directorio (17:38).
+cd ..: Salir de un directorio (19:05).
+mkdir [nombre]: Crear un nuevo directorio (20:23).
+Flujo de Trabajo con Git (24:19)
+
+Inicialización de un repositorio con git init (21:15).
+git status: Muestra el estado actual del repositorio, indicando archivos no rastreados (untracked files) o cambios listos para ser comprometidos (changes to be committed) (29:04).
+git add [nombre_archivo]: Agrega cambios a la "staging area" (área de preparación) (29:36). Se advierte no usar git add . sin cautela (30:00).
+git commit -m "mensaje": Registra los cambios de la "staging area" en el historial del repositorio con un mensaje descriptivo (34:50). También se muestra una forma alternativa de crear el commit abriendo el editor (35:58).
+rm [nombre_archivo]: Elimina archivos (37:53).
+git rm [nombre_archivo]: Elimina un archivo y lo agrega directamente al "staging area" (39:29).
+git restore --staged [nombre_archivo]: Saca un cambio del "staging area" (39:58).
+git restore [nombre_archivo]: Descartar cambios y recuperar un archivo eliminado (40:37).
+mv [origen] [destino]: Mover o renombrar archivos (41:21).
+git mv [origen] [destino]: Mueve un archivo y lo agrega directamente al "staging area" (42:55).
+Ignorando archivos y directorios con .gitignore (43:23). Se explica cómo crear un archivo .gitignore y añadir patrones para ignorar archivos como .env o directorios como node_modules (45:34).
+git status -s: Una forma más concisa de ver el estado de Git (46:39).
+git diff: Permite visualizar los cambios realizados en un archivo que no han sido agregados al "staging area" (49:37).
+git diff --staged: Muestra los cambios que están en el "staging area" (51:00).
+git log: Visualiza el historial de commits (52:41).
+Ramas en Git (Branches) (54:08)
+
+Las ramas permiten trabajar en diferentes versiones de un proyecto simultáneamente sin afectar la rama principal.
+git branch [nombre_rama]: Crear una nueva rama (55:40).
+git switch [nombre_rama] o git checkout [nombre_rama]: Cambiar de rama (56:20).
+git branch -m [nuevo_nombre]: Renombrar la rama actual (58:40).
+git branch -d [nombre_rama]: Eliminar una rama (59:44).
+Conectando con GitHub (1:00:39)
+
+Se explica cómo crear un repositorio en GitHub.
+Se muestran los comandos para conectar el repositorio local con el remoto en GitHub, como git remote add origin (1:03:00) y git push -u origin main (1:05:00) para subir los cambios.
