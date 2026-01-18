@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "./styles/style.css">
+</head>
+<body>
+
+        <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href= "index.html">Home</a>
+            <a class="header__menu__link" href= "about.html">Sobre me</a>
+	        <a class="header__menu__link" href="curriculum.html">Currículum</a>
+            
+        <div class="dropdown">
+            <a class="header__menu__link dropdown__btn">Proyectos ▾</a>
+        <div class="dropdown__content">
+            <a href="proyecto1.html">Proyecto 1</a>
+            <a href="proyecto2.html">Proyecto 2</a>
+            <a href="proyecto3.html">Proyecto 3</a>
+        </div>
+        </div>
+
+        </nav>
+    </header>
+
+    <main class="presentacion">
+
+        <section class="presentacion__contenido">
+
+            <h1 class="presentacion__contenido__titulo">
+                Diseño gráfico y Front-End  <strong class="titulo-destaque">proyectos digitales bien construidos!</strong> 
+            </h1>
+
+            <p class="presentacion__contenido__texto">
+                ¡Hola! Soy Miguel Angel Rueda, Estudiante de diseño grafico y con conocimientos en desarrollo web, 
+                HTML y CSS. Mi especialidad academica es el diseño editorial. ¿Hablamos?
+            </p>
+
+             <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+                <a class="presentacion__enlaces__link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                    <img src="./assets/linkedin.png" alt="linkedin image">
+                    Linkedin</a>
+                <a class="presentacion__enlaces__link" href="https://github.com/">
+                    <img src="./assets/github.png" alt="github image">
+                    Github</a>
+            </div>
+
+        </section>
+
+		<img class="presentacion__imagen" src="./assets/imagen2.png" alt="Foto de ejemplo">
+        
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Migrueda</p>
+    </footer>
+
+</body>
+</html>
